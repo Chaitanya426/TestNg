@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Personal Loan">
+		<classes>
+			<class name="com.TestNg.practise.day1" />
+			<class name="com.TestNg.practise.day2" />
+		</classes>
+	</test>
+	<test name="Car loan">
+		<classes>
+			<class name="com.TestNg.practise.day3">
+				<methods>
+					<exclude name="CarLoanMobileLogin" />
+				</methods>
+			</class>
+			<class name="com.TestNg.practise.goldLoan">
+				<methods>
+					<exclude name="Gold.*" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

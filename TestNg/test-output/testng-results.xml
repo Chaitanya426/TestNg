@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="94" started-at="2021-06-29T17:19:57Z" finished-at="2021-06-29T17:19:58Z">
+    <groups>
+    </groups>
+    <test name="Personal Loan" duration-ms="53" started-at="2021-06-29T17:19:57Z" finished-at="2021-06-29T17:19:57Z">
+      <class name="com.TestNg.practise.day2">
+        <test-method status="PASS" signature="PersonalLoanMobileLogin()[pri:0, instance:com.TestNg.practise.day2@66d2e7d9]" name="PersonalLoanMobileLogin" duration-ms="2" started-at="2021-06-29T22:49:57Z" finished-at="2021-06-29T22:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanMobileLogin -->
+        <test-method status="PASS" signature="PersonalLoanWebLogin()[pri:0, instance:com.TestNg.practise.day2@66d2e7d9]" name="PersonalLoanWebLogin" duration-ms="2" started-at="2021-06-29T22:49:57Z" finished-at="2021-06-29T22:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanWebLogin -->
+      </class> <!-- com.TestNg.practise.day2 -->
+      <class name="com.TestNg.practise.day1">
+        <test-method status="PASS" signature="HomeloanMobilelogin()[pri:0, instance:com.TestNg.practise.day1@6a024a67]" name="HomeloanMobilelogin" duration-ms="15" started-at="2021-06-29T22:49:57Z" finished-at="2021-06-29T22:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeloanMobilelogin -->
+        <test-method status="PASS" signature="HomeloanWeblogin()[pri:0, instance:com.TestNg.practise.day1@6a024a67]" name="HomeloanWeblogin" duration-ms="4" started-at="2021-06-29T22:49:57Z" finished-at="2021-06-29T22:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeloanWeblogin -->
+      </class> <!-- com.TestNg.practise.day1 -->
+    </test> <!-- Personal Loan -->
+    <test name="Car loan" duration-ms="4" started-at="2021-06-29T17:19:58Z" finished-at="2021-06-29T17:19:58Z">
+      <class name="com.TestNg.practise.day3">
+        <test-method status="PASS" signature="CarLoanWebLogin()[pri:0, instance:com.TestNg.practise.day3@5034c75a]" name="CarLoanWebLogin" duration-ms="1" started-at="2021-06-29T22:49:58Z" finished-at="2021-06-29T22:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanWebLogin -->
+      </class> <!-- com.TestNg.practise.day3 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Suite -->
+</testng-results>
